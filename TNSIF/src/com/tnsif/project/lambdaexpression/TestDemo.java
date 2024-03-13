@@ -6,7 +6,7 @@ public class TestDemo {
 		Runnable basic=()->{ String threadname=Thread.currentThread().getName();
 		System.out.println("Threadname"+threadname);};
 		
-		// instanitiate 2 thread
+		// instantiate 2 thread
 
 		Thread t1=new Thread(basic);
 		Thread t2=new Thread(basic);
